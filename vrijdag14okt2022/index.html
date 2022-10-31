@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier over de ouderavond</title>
+    <style>
+        #container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        
+        table {
+            border: solid 1px black;
+            background-color: rgb(138, 43, 226);
+            color: #d8d8d8;
+        }
+        
+        td {
+            border: solid 1px black;
+            vertical-align: top;
+            padding: 11px;
+        }
+        
+        body {
+            background-color: rgb(255, 228, 196);
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+    <h1>Enquête over de ouderavond</h1>
+
+    <form>
+       <p>Welkom bij deze vragenlijst.</p>
+        <table>
+            <tr>
+                <td>Kon u de locatie goed vinden?</td>
+                <td>
+                    <input type="radio" name="radLocatie" value="ja">Ja<br>
+                    <input type="radio" name="radLocatie" value="nee">Nee
+                </td>
+            </tr>
+            <tr>
+                <td>Was parkeren gemakkelijk?</td>
+                <td>
+                    <input type="radio" name="radParkeren" value="ja">Ja<br>
+                    <input type="radio" name="radParkeren" value="nee">Nee<br>
+                    <input type="radio" name="radParkeren" value="n.v.t.">N.v.t.
+
+                </td>
+            </tr>
+            <tr>
+                <td>Bent u trots op het werk van uw zoon of dochter?</td>
+                <td>
+                    <input type="radio" name="radTrots" value="ja">Ja<br>
+                    <input type="radio" name="radTrots" value="nee">Nee<br>
+                    <input type="radio" name="radTrots" value="een beetje">Een beetje<br>
+                    <input type="radio" name="radTrots" value="helemaal niet">Helemaal Niet<br>
+                    <input type="radio" name="radTrots" value="geen antwoord">Ik wens niet te antwoorden<br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Wilt u nog iets toevoegen?</td>
+                <td>
+                    <textarea rows="5" cols="40" name="toevoeging"></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Verstuur mijn antwoorden"></td>
+            </tr>
+        </table>
+    </form>
+    </div> <!-- einde #container -->    
+</body>
+</html>

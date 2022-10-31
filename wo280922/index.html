@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun with tables</title>
+    <style>
+        #container {
+            /* een unieke ID voor een element */
+            width: 80vw;
+            height: 50vh;
+            border: solid 1px pink;
+            margin: 0 auto;
+        }
+
+        table {
+            border: solid 1px black;
+        }
+
+        .geel {
+            background-color: yellow;
+            color: red;
+        }
+
+        .linkslabel {
+            /* een punt duidt op een class */
+            text-align: left;
+        }
+
+        th {
+            background-color: #5ff091;
+            color: #333;
+            font-weight: bold;
+            text-align: right;
+            text-transform: uppercase;
+
+            font-size: 2em;
+        }
+
+        tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+        tr:nth-child(even) {
+            background-color: grey;
+        }
+
+
+        td {
+            font-weight: bold;
+            border: solid 1px red;
+            width: 200px;
+            font-size: 1em;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <tr>
+                <th class="linkslabel">blanko</th>
+                <th>noord</th>
+                <th>oost</th>
+                <th>zuid</th>
+                <th>west</th>
+            </tr>
+            <tr>
+                <td class="linkslabel">Utrecht</td>
+                <td>800</td>
+                <td>1400</td>
+                <td>10</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td class="linkslabel">Zeeland</td>
+                <td>3,6</td>
+                <td>5</td>
+                <td>1620</td>
+                <td style="color: white; background-color: green;">3122495</td>
+            </tr>
+            <tr>
+                <td class="linkslabel geel">Zuid-holland</td>
+                <td>300</td>
+                <td>200</td>
+                <td>100</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="linkslabel">Noord-Holland</td>
+                <td>600</td>
+                <td>1000</td>
+                <td>8</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td class="linkslabel">Friesland</td>
+                <td>17</td>
+                <td>2500000</td>
+                <td>170</td>
+                <td>35</td>
+            </tr>
+        </table>
+    </div>
+</body></html>

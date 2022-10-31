@@ -1,0 +1,82 @@
+USER STORIES
+------------
+ENTITIES / ROL / BELANGHEBBENDE / ...
+
+TEMPLATE: 
+    ALS xyz
+    WIL IK cba
+    OMDAT/VANWEGE/ZODAT qwe
+    
+1) ALS [student]
+   WIL IK het [rooster] kunnen raadplegen
+   ZODAT ik weet waar en op welke tijd een les begint
+   
+2) ALS [passagier]
+   WIL IK de [dienstregeling] kunnen zien
+   ZODAT ik informatie over de vertrektijd kan vinden
+   
+3) ALS [gebruiker]
+   WIL IK een navigatiebalk in het programma of de app 
+   ZODAT ik kan navigeren binnen die applicatie
+   
+                        4) ALS docent
+                           WIL IK een mooie lay-out van een website zien
+                           ZODAT het makkelijker wordt voor de bezoekers
+   
+                        5) ALS ouder
+                           WIL IK meer plaatjes dan tekst zien
+                           ZODAT het een meer interessante website wordt
+   
+                        6) ALS ouder
+                           WIL IK korte teksten op de website
+                           ZODAT mensen/ik zich niet snel vervelen
+   
+                        7) ALS ouder
+                           WIL IK een tabel
+                          ZODAT ik met overzicht bepaalde informatie kan zien
+
+                        8) ALS passagier
+                           WIL IK dat er op tijd wordt gereden
+                           ZODAT ik op tijd op mijn afspraak arriveer
+   
+9) ALS student
+   WIL IK een optie "dark mode" 
+   ZODAT ik geen pijn in mijn ogen krijg als ik wat
+         later op mijn scherm kijk
+   
+                        10) ALS autist
+                           WIL IK graag fun feitjes op de website zien
+                           ZODAT ik kan op de website kan blijven en
+                                 door kan gaan met leren
+   
+                        11) ALS ouder
+                           WIL IK een logo
+                           ZODAT ik daarin de naam van de website zie
+   
+12) ALS kok
+   WIL IK snelle recepten zien op de homepage
+   ZODAT ik weinig tijd nodig heb om te koken
+   
+                        13) ALS gebruiker
+                            WIL IK duidelijke tekst
+                            ZODAT ik weet waar het over gaat
+
+                        14) ALS student
+                           WIL IK graag meer info in het rooster over de docenten
+                           ZODAT ik weet wie er les geeft
+   
+15) ALS (website)bezoeker/gebruiker
+    WIL IK een scrollbar
+    ZODAT ik makkelijker kan navigeren op de [pagina] of binnen de app
+    
+                        16) ALS (website)bezoeker
+                            WIL IK dat de website snel laadt 
+                            ZODAT het browsen lekker snel gaat
+
+                        17) ALS student
+                            WIL IK graag een formulier
+                            ZODAT ik vragen kan stellen over de opleiding
+    
+    
+    
+   

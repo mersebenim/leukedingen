@@ -1,0 +1,61 @@
+/*
+    voor body zijn 5 achtergrondafbeeldingen beschikbaar.
+    door het commentaar weg te halen voor een background-image
+    bepaal je wélke afbeelding te zien zal zijn.
+
+    let op: de afbeelding "industrie.jpg" is iets te klein,
+    waardoor het resultaat er niet zo mooi uitziet (het wordt
+    heel erg blokkerig).
+*/
+
+body {
+/*    background-image: url(../img/garedunord.webp);     */
+/*    background-image: url(../img/bos.jpg);             */
+/*    background-image: url(../img/industrie.jpg);       */
+/*    background-image: url(../img/industriegebied.jpg); */
+    background-image: url(../img/station.jpg);         
+    
+    /* de volgende drie selectors bepalen dat de afbeelding
+       over de volle breedte van de pagina loopt en
+       dat de achtergrond NIET meeschuift als er langere
+       tekst te zien is. 
+       Dat is op de pagina INDEX.HTML het geval.
+    */
+    background-size: 100% 100%;
+    background-blend-mode: difference;
+    background-attachment: fixed;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 2em;
+    width: 250px;
+    padding: 1cm;
+    margin-right: 50px;
+    background-color: yellow;
+    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.6);
+    border: solid 10px black;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+    border: dashed 10px red;
+}
+
+a:visited {
+    color: orange;
+}
+
+
+#container {
+    box-sizing: border-box;  /* geen last van padding en margin */
+    border: solid 1px black; /* border rondom: 1px black        */
+    width: 80vw;             /* ongeveer 80% van de breedte     */
+    margin: 3cm auto 0;      /* brol: 3cm boven, links/rechts
+                                worden AUTOmatisch uitgerekend.
+                                onder GEEN ruimte.              */
+    padding: 1cm;            /* 1cm ruimte binnen het kader     */
+    background-color: rgba(240, 240, 240, 0.9); /* doorzichtig  */
+    border-radius: 10px;     /* afgeronde hoeken                */
+}

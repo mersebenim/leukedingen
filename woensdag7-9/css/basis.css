@@ -1,0 +1,35 @@
+body {
+/*    background-color: yellow;*/
+    background: yellow url(../img/dubai.jpg);
+}
+
+.container {
+    width: 60vw;
+    height: 500px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 2cm auto;
+}
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0.5cm;
+    }
+
+    #deze {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .ruimte-links {
+        margin-left: 5cm;
+    }
+
+    .groenetekst {
+        color: green;
+    }
+
+    .stipjes {
+        border: double 10px purple;
+        padding: 15px;
+    }

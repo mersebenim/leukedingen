@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blokkenschema</title>
+    <style>
+        #container {
+            box-sizing: border-box;
+
+            background-color: #eee;
+            width: 70vw;
+            height: 50vh;
+
+            padding: 1.5cm;
+            margin: auto;
+        }
+
+        #blokken {
+            width: 201px;
+            margin: 80px auto;
+            padding: 1cm;
+        }
+        
+        #lb,
+        #rb,
+        #ro,
+        #lo {
+            box-sizing: border-box;
+            border: solid 10px rgba(255,255,255,0.4);
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        #lb {
+            background-color: red;
+        }
+
+        #rb {
+            background-color: green;
+        }
+
+        #lo {
+            background-color: magenta;
+        }
+
+        #ro {
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="blokken">
+            <div id="lb">a</div>
+            <div id="rb">b</div>
+            <br style="clear: both;">
+            <div id="lo">c</div>
+            <div id="ro">d</div>
+        </div>
+    </div>
+</body></html>

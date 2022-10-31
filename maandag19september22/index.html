@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tabellen revisited</title>
+        <style>
+            h1, h2, h3, h4, h5, h6 {
+                color: maroon;
+/*                 border-bottom: solid 1px black; */
+            }
+            
+            table, tr, td {
+                border: solid 1px black;
+                padding: 5px;
+            }
+            
+            th {
+                text-align: left;
+                background-color: navy;
+                color: white;
+            }
+            
+            td, th {
+                padding-left: 10px;
+            }
+            
+            td {
+                background-color: green;
+                color: yellow;
+            }
+            
+            .attentie {
+                background-color: purple;
+                color: white;
+            }
+            
+            #container {
+                width: 70%;
+                height: 400px;
+                border: solid 1px black;
+                padding: 1cm;
+                margin: 1cm auto;                
+            }
+            
+        </style>
+    </head>
+       <div id="container">
+        <h1 class="attentie">Regio-overzicht aantal bezoekers</h1>
+
+        <table>
+            <tr>
+                <th>Naam regio</th><th>Aantal</th>
+            </tr>
+            <tr>
+                <td>Noord</td><td>1234 (dit is een grove schatting van het aantal deelnemers eh bezoekers)</td>
+            </tr>
+            <tr>
+                <td>Oost</td><td>800</td>
+            </tr>
+            <tr>
+                <td class="attentie">Zuid</td><td class="attentie">1400</td>
+            </tr>
+            <tr>
+                <td>West</td><td>17.400</td>
+            </tr>            
+            
+        </table>
+        
+        <!-- call to action -->
+        <h3>Meer weten? Vul hier uw gegevens in</h3>
+        <form method="post">
+            De naam is ...<br>
+            <input type="text" name="denaam" required><br>            
+            Uw e-mailadres is...<br>
+            <input type="text" name="hetemail" required><br>
+
+            <input type="submit" name="verzenden" 
+                value="Verzend dit formulier...">
+        </form>
+        
+        
+</div>        
+    <body>
+    </body>
+</html>

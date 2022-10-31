@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table en Form</title>
+    <style>
+        
+        body {
+            background-image: linear-gradient(#ac6005, #444);
+            background-attachment: fixed;
+        }
+        
+        #container {
+            width: 80vw; /* viewport width ongeveer procent */
+            height: 70vh; /* viewport height */
+            
+            background-color: darkorange;
+            
+            margin: 1cm;
+            margin: 1cm auto;
+            
+            position: relative;
+            
+            border: solid 1px black;
+        }
+        
+        #boven, #onder {
+            border: solid 1px black;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        #boven {
+            width: 8cm;
+            height: 2cm;
+            background-color: cyan;
+            position: absolute;
+            top: 5px;
+            left: 15px;
+        }
+        
+        #onder {
+            width: 16cm;
+            height: 10cm;
+            background-color: magenta;
+            position: absolute;
+            top: 5px;
+            right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="boven">
+            <p>Via dit formulier kunt u zich aanmelden
+            voor de bijeenkomst over CSS, zoals die
+            binnenkort op het TCR wordt georganiseerd.</p>
+        </div> 
+        <div id="onder">
+            
+            <form method="get">
+                Uw naam:<br>
+                <input type="text" name="uwnaam" required><br>
+                
+                Uw e-mailadres:<br>
+                <input type="text" name="uwemail" required><br>
+
+                Wanneer wilt u deelnemen?:
+                <select name="wanneer">
+                    <option value=10>10 oktober</option>
+                    <option value=20>15 oktober</option>
+                    <option value=30 selected>20 oktober</option>
+                    <option value=40>1 november</option>
+                </select>
+                <br>
+                <br>
+                Tijdstip? 
+                <input type="radio" name="tijdstip" value="ochtend">'s ochtends
+                <input type="radio" name="tijdstip" value="middag">'s middags
+                <input type="radio" checked name="tijdstip" value="avond">'s avonds
+                <input type="radio" name="tijdstip" value="nacht">'s nachts
+                <br>
+                <br>
+                Koffie, thee, of fris?<br>
+                <input type="checkbox" checked name="drinken" value="koffie">koffie<br>
+                <input type="checkbox" name="drinken" value="thee">thee<br>
+                <input type="checkbox" name="drinken" value="fris">fris<br>
+                
+                <input type="submit" name="btn" value="Stuur!">
+            </form>
+            
+        </div> 
+    </div>
+</body>
+</html>

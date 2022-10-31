@@ -1,0 +1,30 @@
+/* algemene reset */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#alpha {
+    background: pink url(../images/pasfoto2.jpg) no-repeat center center;
+    background-size: auto;
+    width: 400px;
+    height: 400px;
+    
+    float: left;
+}
+
+#nav {
+    float: right;
+    width: 100px;
+}
+
+#beta {
+    background: red;
+    width: 400px;
+    height: 100px;
+    
+    float: right;
+    
+    text-align: right;
+}

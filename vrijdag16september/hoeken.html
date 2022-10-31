@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 600px;
+            height: 400px;
+            background-color: #eee;
+            border: solid 1px black;
+            padding: 1cm;
+            margin: 1cm auto;
+            
+            position: relative;
+        }
+        
+        #lb, #rb, #ro, #lo {
+            position: absolute;
+            width: 150px;
+            height: 20px;
+            
+            overflow: hidden;
+        }
+        
+        #lb { background-color: red; 
+            top: 0px;
+            left: 0px;
+        }
+        
+        #lb:hover {
+            width: 160px;
+            height: 160px;
+        }
+        
+        #rb { background-color: cyan; 
+            top: 0px;
+            right: 0px;
+            height:400px;
+            z-index: 40;
+        }
+        
+        #rb:hover {
+            width: 260px;
+            height: 80px;
+        }
+        
+        #ro { background-color: magenta;
+            height: 400px;
+            width: 100px;
+            bottom: 0px;
+            right: 0px;
+        }
+        
+        #ro:hover {
+            z-index: 100;
+        }
+        
+        #lo { background-color: black; 
+            bottom: 0px;
+            left: 0px;
+            overflow: scroll;
+        }
+        
+        #lo:hover {
+            height: 500px;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+       <div id="lb"><div><b>MEER WETEN?</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quam totam, laboriosam soluta nemo, aliquam harum voluptatem iusto provident inventore autem. Nihil deserunt quam blanditiis sunt harum reprehenderit architecto quasi.</div>
+    <div>Necessitatibus voluptatum aperiam explicabo inventore voluptates pariatur dolorum distinctio assumenda accusantium quis, in exercitationem mollitia cum hic a repellendus dolores. Sequi asperiores itaque dolorum vitae iusto necessitatibus distinctio recusandae non?</div></div>
+    <div id="rb"><b>Over vrijdag</b><br>Het is vandaag vrijdag en dat houdt ook
+    in dat we snel richting het langverwachte weekeind gaan.
+    Dat is leuk want dan gaan de volgende week alweer de <b>vierde week</b> in! Op die manier vliegt het jaar voorbij.</div>
+    <div id="ro"></div>
+    <div id="lo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat expedita doloribus, ab quia labore, quam dolor voluptatibus sint perferendis, unde cumque consequatur. Id, doloribus magni doloremque. Consectetur, obcaecati, eveniet?</div>
+    </div>    
+</body>
+</html>

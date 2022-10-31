@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulieren op het web</title>
+</head>
+<body>
+    <h3>Meer informatie?</h3>
+    <p>Via onderstaand formulier kunt u zich aanmelden
+    voor het feest op verschillende locaties.</p>
+    
+    <!-- GET en POST zijn de verschillende methoden
+         voor het versturen van formuliergegevens -->
+         
+    <!-- GET (standaard) stuurt alle gegevens via de URL-balk. 
+         geheime data die je niet wilt laten zien aan de bezoeker
+         komen op deze manier in beeld...
+         
+         bovendien heeft deze methode een beperking in het aantal
+         tekens dat je kunt verzenden (per formulier) van 
+         1023 tekens.
+         
+         POSTS verstuurt alle formuliergegevens alsof het in
+         een envelop is gestopt. Die envelop wordt als een
+         geheel verstuurd naar de server.
+         
+         Geheime data, grote bestanden (films, etc.) kun je
+         op deze manier versturen, omdat er geen beperking is
+         in de lengte van het data-element.
+         
+         Er kan, als het heel grote hoeveelheid data betreft,
+         wel een timeout optreden aan de kant van de server.
+    -->
+    
+    <form method="post">
+        uw naam<br>
+        <input type="text" id="naam" name="naam" required>
+        
+        <br>uw e-mailadres<br>
+        <input type="text" id="email" name="email" required>
+        
+        <br>Welk feest wilt u bezoeken?<br>
+        <select id="locatie" name="locatie">
+            <option value="010">Feest in Rotterdam</option>
+            <option value="076">Feest in Breda</option>
+            <option value="085">Feest in Leeuwarden</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" name="verzendknop" value="MELD MIJ AAN!">
+
+    </form>
+</body>
+</html>

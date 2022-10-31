@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus</title>
+
+    <style>
+        #container {
+            box-sizing: border-box;
+            width: 400px;
+            height: 240px;
+            background-color: transparent;
+            padding: 1cm;
+            margin: 0.5cm auto;
+            line-height: 25px;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        #display {
+            width: 200px;
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        input[type="text"] {
+            font-size: 2em;
+            color: #888;
+            border: none;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        input[type="password"] {
+            font-size: 2em;
+            color: #ccc;
+            border: none;
+        }
+
+        .border-bottom-input {
+            border: none;
+            /* remove default border */
+            border-bottom: 2px solid #777;
+            /* add only bottom border */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <p id="display">Welkom op deze pagina!</p>
+
+        <form method="get" action="verwerkform.php">
+            <label for="mijnnaam">Mijn naam:</label>
+            <input class="border-bottom-input" type="text" required name="mijnnaam" id="mijnnaam">
+
+            <br>
+            <label for="mijncode">De code:</label>
+            <input class="border-bottom-input" type="password" required name="mijncode" id="mijncode">
+            <br>
+            <br>
+            
+            <label for="reax">Uw reactie</label>
+            <textarea name="reactie" rows="6" cols="60"></textarea>
+            <input type="submit" name="Ok" id="Ok" value="versturen">
+        </form>
+    </div>
+
+    <script>
+        //document.getElementById("mijnnaam").focus();
+    </script>
+
+</body></html>

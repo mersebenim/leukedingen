@@ -1,0 +1,19 @@
+body {
+    /* relatieve padverwijzing */
+    
+    background: url(../img/bliksem.jpg) #cba987 fixed;
+}
+
+div#container {
+    width: 50%;  
+    text-align: justify;
+    margin: 1cm auto;
+    
+    padding: 1cm;
+}
+
+div {
+    color: yellow;
+    font-weight: normal;
+    font-size: 1.1em;
+}

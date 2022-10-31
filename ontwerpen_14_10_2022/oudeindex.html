@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enquête</title>
+    <style>
+    
+        #container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            border: dotted 1px black;
+            border: dotted 1px black;
+        }
+        
+    </style>
+</head>
+<body>
+   <div id="container">
+    <h1>Vragenlijst voor NA de ouderavond</h1>
+    
+    <form method="get">
+        <p>Vond u het een leuke avond?</p>
+        
+        <input type="radio" name="radLeuk" value="Ja">Ja<br>
+        <input type="radio" name="radLeuk" value="Nee">Nee<br>
+        <input type="radio" name="radLeuk" value="Een beetje">Een beetje<br>
+        <input type="radio" name="radLeuk" value="Kweenie">Dat weet ik eigenlijk nog niet helemaal zeker<br>
+        
+        
+        <p>Uw naam(optioneel)</p>
+        <input type="text" name="wiebenik" value="Repelsteeltje">
+        
+        
+        <p>Heeft u iets van deze avond geleerd?</p>
+        <input type="radio" name="radGeleerd" value="ja!">Ja!<br>
+        <input type="radio" name="radGeleerd" value="nee">Nee<br>
+        
+        <p>Heeft u nog tips of tops voor ons?</p>
+        <textarea rows="10" cols="40" name="feedback"></textarea><br>
+        
+        <input type="submit" name="btnOk" value="Verzend nu of zo">
+    </form>
+    </div>
+</body>
+</html>

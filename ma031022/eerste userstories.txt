@@ -1,0 +1,107 @@
+USER STORIES
+------------
+Model: ALS xyz WIL abc OMDAT/VANWEGE klm
+            |       |
+         entiteit activiteit          | doel/reden
+         
+         
+1) ALS student
+   WIL IK het rooster kunnen raadplegen  >>>> rooster
+   ZODAT ik weet waar de lessen zijn
+
+2) ALS metro-passagier 
+   WIL IK de dienstregeling kunnen raadplegen   >>>> dienstregeling
+   ZODAT ik weet wanneer mijn metro vertrekt
+
+3) ALS programmeur
+   WIL IK ervoor zorgen dat de website er goed uitziet   >>>> geen programmamogelijkheid
+   ZODAT/OMDAT de opdrachtgever tevreden is
+   
+   ALS programmeur 
+   WIL IK gebruik kunnen maken van generatoren voor het bouwen van een website
+   ZODAT IK gemakkelijker de opdrachtgever tevreden maak
+   
+4) ALS project manager
+   WIL IK dat alle taken op tijd worden afgerond        >>>> geen programmamogelijkheid  
+   ZODAT/OMDAT ik meer tijd overhoud voor andere taken
+   
+   ALS project manager
+   WIL IK dat de taken worden ingeleverd in een inleverbak
+   ZODAT/OMDAT ik overzicht heb over het geheel
+   
+   ALS project manager
+   WIL IK een geautomatiseerd e-mailsysteem hebben om mijn werknemers te helpen
+   herinneren aan het inleveren van hun project/taken
+   ZODAT/OMDAT ik daarmee beter in staat ben de voortgang te peilen
+ 
+
+12) ALS klant
+    WIL IK makkelijker kunnen betalen via bijv. i-Deal  >>>> beperkte programmamogelijkheid
+    ZODAT/OMDAT ik eenvoudiger boodschappen kan doen
+
+    
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+5) ALS web designer
+   WIL IK een footer onderaan een website               >>>> geen programmamogelijkheid
+   ZODAT/OMDAT het uiterlijk van de website "mooier" is >>>> generator!
+   
+6) ALS docent
+   WIL IK goed mijn les(sen) voorbereiden               >>>> geen programmamogelijkheid
+   ZODAT/OMDAT de leerlingen/studenten de lesstof goed kunnen opnemen
+   
+7) ALS student
+   WIL IK een bijbaan hebben (dus: inkomsten)           >>>> geen programmamogelijkheid
+   ZODAT/OMDAT ik mijn vaste lasten kan betalen
+   
+8) ALS docent/student/opdrachtgever
+   WIL IK mijn website tonen/presenteren                >>>> geen programmamogelijkheid
+   ZODAT/OMDAT mijn publiek deze kan beoordelen
+   
+9) ALS fietser
+   WIL IK ervoor zorgen dat mijn ketting goed zit       >>>> geen programmamogelijkheid
+   ZODAT/OMDAT ik anders moet gaan lopen (en daar heb ik geen fiets voor)
+
+10) ALS autobestuurder
+    WIL IK dat de techniek van de auto in orde is       >>>> geen programmamogelijkheid
+    ZODAT/OMDAT ik onderweg geen autopech zal hebben
+    
+11) ALS student
+    WIL IK meer les krijgen                             >>>> geen programmamogelijkheid
+    ZODAT/OMDAT het helpt bij mijn opleiding
+
+13) ALS treinpassagier
+    WIL IK dat de 1e klasse goedkoper wordt             >>>> geen programmamogelijkheid
+    ZODAT/OMDAT ik sneller een zitplaats kan vinden
+    
+14) ALS student
+    WIL IK goede cijfers halen                          >>>> geen programmamogelijkheid
+    ZODAT/OMDAT ik overga naar het volgende leerjaar
+    
+15) ALS student
+    WIL IK dat de lessen later beginnen                 >>>> geen programmamogelijkheid
+    ZODAT/OMDAT ik beter kan uitslapen
+

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Z-index omdat het kan</title>
+    <style>
+        
+        input[type='text'] {
+            color: purple;
+        }
+        
+        body {
+            box-sizing: border-box;
+        }
+        
+        #een, #twee, #achtste {
+            width: 250px;
+            height: 150px;
+            
+            border: solid 1px red;
+            box-sizing: border-box;
+            
+           padding: 10px;
+        }
+        
+        #een {
+            background-color: sandybrown;
+            float: left;
+        }
+        
+        #twee {
+            background-color: green;
+            float: left;
+/*            transform: rotate(15deg);*/
+        }
+
+        #achtste {
+            float: right;
+            background-color: darkgrey;
+/*            transform: rotate(30deg);*/
+        }
+        
+        #achtste:hover {
+            box-sizing: border-box;
+            
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        
+        p {
+            margin-top: 1.5cm;
+            margin-left: 1cm;
+            float: left;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="een">Eenvoudig aan te passen</div>
+    
+    <div id="twee">WAt moet ik bij twee doen?</div>
+    
+        
+    <div id="achtste">WAT moet ik bij 3 doen?</div>
+            
+                
+    <p>We hebben nog 5 minuutjes ;-)</p>
+</body>
+
+</html>

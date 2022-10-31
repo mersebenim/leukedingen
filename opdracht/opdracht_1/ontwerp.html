@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #header {
+            margin: 1cm;
+            padding: 1cm;
+            background-color: #A9A9A9;
+            color: #333;
+        }
+
+        
+        html {
+            box-sizing: border-box;
+            color: blue;
+        }
+        
+        #kader {
+            width: 400px;
+            height: 435px;
+            margin: 4cm auto;
+            border: solid 1px black;
+            background-color: #ddd;
+        }
+        
+        div {
+            border: solid 1px black;
+            height: 20px;
+            background-color: red;
+            text-transform: uppercase;
+        }
+        
+        
+        #linkerkant {
+            float: left;
+            background-color: #a9a9a9;
+            height: 260px;
+            width: 45%;
+        }
+        
+        #rechterkant {
+            float: right;
+            background-color: cyan;
+            height: 125px;
+            width: 45%;
+        }
+        
+        #absoluut1 {
+            position: absolute;
+            top: 4cm;
+            right: 4cm;
+            width: 70px;
+            height: 70px;
+            border: none;
+            background-color: #bed600;
+        }
+        
+        #stap3, #stap2, #stap1 {
+            background-color: #a9a9a9;
+        }
+        
+    </style>
+</head>
+<body>
+  <div id="absoluut1">Hallo, wereld</div>
+   
+   <div id="kader">
+      <div id="header">weersomstandigheden</div>
+      <div id="linkerkant">content links</div>
+      <div id="rechterkant">
+          <div id="stap1">stap 1</div>
+          <div id="stap2">stap 2</div>
+          <div id="stap3">stap 3</div>
+      </div> 
+   </div>
+    
+</body>
+</html>
